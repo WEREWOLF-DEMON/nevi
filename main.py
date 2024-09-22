@@ -31,11 +31,11 @@ def get_main_inline_keyboard():
     keyboard = [
         [
             InlineKeyboardButton("‣ʜᴇʟᴘ&ᴄᴏᴍᴍᴀɴᴅ‣", callback_data="help"),
-            InlineKeyboardButton("‣ᴀᴅᴅ ᴍᴇ‣", url="https://t.me/copyright_ro_bot?startgroup=true"),
+            InlineKeyboardButton("‣ᴀᴅᴅ ᴍᴇ‣", url="https://t.me/ProtectorCopyrightBot?startgroup=true"),
         ],
         [
-            InlineKeyboardButton("‣ꜱᴜᴘᴘᴏʀᴛ‣", url="https://t.me/ll_about_ari_ll"),
-            InlineKeyboardButton("‣ᴏᴡɴᴇʀ‣", url="https://t.me/xazoc"),
+            InlineKeyboardButton("‣ꜱᴜᴘᴘᴏʀᴛ‣", url="https://t.me/kaalCarder"),
+            InlineKeyboardButton("‣ᴏᴡɴᴇʀ‣", url="https://t.me/WereWolfDemon"),
         ]
     ]
     return InlineKeyboardMarkup(keyboard)
@@ -72,7 +72,7 @@ async def start_command(update: Update, context):
     # Step 3: Prepare the final message caption
     caption = (
         f"╭───────────────────────── \n"
-        f"╰──●нυι тнιѕ ιѕ ˹𝑪𝒐𝒑𝒚𝒓𝒊𝒈𝒉𝒕 ✗ 𝜝𝒐𝒕 ˼🤍\n\n"
+        f"╰──●нυι тнιѕ ιѕ ˹ᴄᴏᴘʏʀɪɢʜᴛ✗ᴘʀᴏᴛᴇᴄᴛᴏʀ˼🤍\n\n"
         f"●ᴏυʀ ᴍιѕѕιᴏɴ ιѕ тᴏ ᴇɴѕυʀᴇ ᴀ ѕᴇᴄυʀᴇ ᴀɴᴅ ᴘʟᴇᴀѕᴀɴт ᴇɴvιʀᴏɴᴍᴇɴт ғᴏʀ ᴇvᴇʀyᴏɴᴇ.\n"
         f"ғʀᴏм ᴄᴏᴘyʀιɢнт ᴘʀᴏтᴇcтιᴏɴ тᴏ ᴍᴀιɴтᴀιɴιɴɢ ᴅᴇcᴏʀυм, ᴡᴇ'vᴇ ɢᴏт ιт cᴏvᴇʀᴇᴅ. 🌙\n\n"
         f"●ɴᴏ cᴏммᴀɴᴅ, ᴊᴜѕт ᴀᴅᴅ тнιѕ ʙᴏᴛ, ᴇvᴇʀyтнιɴɢ ιѕ ᴀυтᴏ 🍁\n\n"
@@ -98,9 +98,9 @@ async def button_handler(update: Update, context):
             "💫Here are some commands:\n\n"
             "● [/start] - Start the bot\n"
             "● This bot automatically deletes edited messages, long messages, and shared links or PDFs.🍃\n"
-            "● If you want to add a new video, send it to @xazoc.🤍\n"
-            "● If you need any kind of helo dm @xotikop_bot🩵\n"
-            "● If you want to add your self in sudo,contact @xazoc.💛\n\n"
+            "● If you want to add a new video, send it to @WerewolfDemon.🤍\n"
+            "● If you need any kind of helo dm @WereWolfDemon🩵\n"
+            "● If you want to add your self in sudo,contact @WerewolfDemon.💛\n\n"
             "#𝐒ᴀғᴇ ᴇᴄᴏ🍃 , #𝐗ᴏᴛɪᴋ❤️‍🔥"
         )
         await query.message.edit_caption(help_text, reply_markup=get_back_inline_keyboard())
@@ -109,7 +109,7 @@ async def button_handler(update: Update, context):
         video_url = random.choice(VIDEO_LIST)
         caption = (
             f"╭─────────────────────────\n"
-            f"╰──●нυι тнιѕ ιѕ ˹𝑪𝒐𝒑𝒚𝒓𝒊𝒈𝒉𝒕 ✗ 𝜝𝒐𝒕 ˼🤍\n\n"
+            f"╰──●нυι тнιѕ ιѕ ˹ᴄᴏᴘʏʀɪɢʜᴛ✗ᴘʀᴏᴛᴇᴄᴛᴏʀ˼🤍\n\n"
             f"●ᴏυʀ ᴍιѕѕιᴏɴ ιѕ тᴏ ᴇɴѕυʀᴇ ᴀ ѕᴇᴄυʀᴇ ᴀɴᴅ ᴘʟᴇᴀѕᴀɴт ᴇɴvιʀᴏɴᴍᴇɴт ғᴏʀ ᴇvᴇʀyᴏɴᴇ.\n"
             f"ғʀᴏм ᴄᴏᴘyʀιɢнт ᴘʀᴏтᴇcтιᴏɴ тᴏ ᴍᴀιɴтᴀιɴιɴɢ ᴅᴇcᴏʀυм, ᴡᴇ'vᴇ ɢᴏт ιт cᴏvᴇʀᴇᴅ. 🌙\n\n"
             f"●ɴᴏ cᴏммᴀɴᴅ, ᴊᴜѕт ᴀᴅᴅ тнιѕ ʙᴏᴛ, ᴇvᴇʀyтнιɴɢ ιѕ ᴀυтᴏ 🍁\n\n"
