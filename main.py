@@ -6,13 +6,13 @@ from telegram.constants import ParseMode
 import os
 
 # Use environment variable to load the token
-TOKEN = '7663809864:AAHIfLfkJtM_xpcOwRp9w0zOC6b7E7wu-0Y'
+TOKEN = '7937364044:AAHUVBKse5Mn3b8JINjxNeO9fvC0bxwHF58'
 
 # List of user IDs that are exempt from message deletion
 EXEMPT_USER_IDS = [6545754981, 7379318591]  # Replace these with actual user IDs
 
 # Define the owner’s user ID who can manage the exempt list
-OWNER_USER_ID = 7379318591  # Replace with the actual owner's user ID
+OWNER_USER_ID = 6656608288  # Replace with the actual owner's user ID
 
 # Set a maximum length for messages
 MAX_MESSAGE_LENGTH = 100
