@@ -77,7 +77,7 @@ async def start_command(update: Update, context):
         f"ғʀᴏм ᴄᴏᴘyʀιɢнт ᴘʀᴏтᴇcтιᴏɴ тᴏ ᴍᴀιɴтᴀιɴιɴɢ ᴅᴇcᴏʀυм, ᴡᴇ'vᴇ ɢᴏт ιт cᴏvᴇʀᴇᴅ. 🌙\n\n"
         f"●ɴᴏ cᴏммᴀɴᴅ, ᴊᴜѕт ᴀᴅᴅ тнιѕ ʙᴏᴛ, ᴇvᴇʀyтнιɴɢ ιѕ ᴀυтᴏ 🍁\n\n"
         f"⋆━ׄ┄ׅ━ׄ┄ׅ━ׄ┄ׅ ━ׄ┄ׅ━ׄ┄ׅ━ׄ┄ׅ━ׄ┄ׅ━ׄ┄ׅ━ׄ\n"
-        f"ᴍᴀᴅᴇ ᴡιтн 🖤 ʙy @xazoc❣️"
+        f"ᴍᴀᴅᴇ ᴡιтн 🖤 ʙy @WerewolfDemon❣️"
     )
 
     # Step 4: Send the video with the caption and inline keyboard
